@@ -1,0 +1,40 @@
+{
+    "name": "node-edgegpt",
+    "version": "1.0.0",
+    "description": "Node-EdgeGPT is a command-line interface (CLI) tool that leverages the Bing Chat API and the to create an AI-based chatbot. The chatbot can converse with users in natural language and respond to their queries in real-time. This tool is ideal for developers looking to implement conversational AI in their projects.",
+    "main": "src/cli.js",
+    "type": "module",
+    "scripts": {
+        "start": "node src/cli.js"
+    },
+    "keywords": [
+        "chatbot",
+        "CLI",
+        "AI",
+        "GPT",
+        "Bing Chat API",
+        "natural language processing",
+        "conversational AI",
+        "command line interface",
+        "OpenAI",
+        "chat",
+        "language model",
+        "NLP",
+        "machine learning",
+        "chat interface",
+        "artificial intelligence"
+    ],
+    "author": {
+        "name": "Youssef Erratbi",
+        "email": "yerratbi@gmail.com",
+        "url": "https://twitter.com/erratbi"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "async": "^3.2.4",
+        "axios": "^1.4.0",
+        "dotenv": "^16.0.3",
+        "readline": "^1.3.0",
+        "ws": "^8.13.0"
+    }
+}
