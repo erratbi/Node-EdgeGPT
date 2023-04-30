@@ -49,6 +49,12 @@ export function getHeaders() {
   }
 }
 
+/**
+ * Creates a chat request
+ * @param conversation
+ * @param mode
+ * @returns {function(*): {arguments: [{optionsSets, conversationId: *, source: string, conversationSignature: *, message: {messageType: string, author: string, inputMethod: string, text: *}, isStartOfSession: boolean, participant: {id: *}}], type: number, invocationId: string, target: string}}
+ */
 export function createChatRequest(conversation, mode = MODE_BALANCED) {
   let invocationId = 0
   return (prompt) => ({
