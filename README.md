@@ -18,18 +18,15 @@ Installation
 To install Node-EdgeGPT, follow these steps:
 
 1.  Clone the repository: `git clone https://github.com/erratbi/Node-EdgeGPT.git`
-2.  Navigate to the project directory: `cd Node-edgeGPT`
+2.  Navigate to the project directory: `cd Node-EdgeGPT`
 3.  Install dependencies: `yarn` or `npm install`
-
 
 Configuration
 -------------
 
-You can configure Node-EdgeGPT by modifying the `.env.example` file and rename it to `.env`. This file contains the `COOKIE` variable needed for the CLI to function.
-To get your cookie head to [Bing chat](https://bing.com/chat), and follow this steps.
+You can configure Node-EdgeGPT by modifying the `.env.example` file and renaming it to `.env`. This file contains the `COOKIE` variable needed for the CLI to function. To get your cookie, go to [Bing chat](https://bing.com/chat), and follow these steps.
 
 ![tutorial](https://images2.imgbox.com/c7/e6/HS4WhELy_o.gif)
-
 
 Usage
 -----
@@ -40,8 +37,7 @@ To use Node-EdgeGPT, follow these steps:
 2.  Enter your Bing Chat API key when prompted.
 3.  Start chatting with the chatbot.
 
-The chatbot will respond to your input in real-time. To exit the CLI type `:exit` or `:reset` to start a fresh conversation
-
+The chatbot will respond to your input in real-time. To exit the CLI, type `:exit` or `:reset` to start a fresh conversation.
 
 Contributing
 ------------
@@ -66,4 +62,4 @@ If you encounter any issues while using Node-EdgeGPT, please [open an issue](htt
 License
 -------
 
-Node-EdgeGPT is licensed under the [MIT License](./LICENSE).
+Node-EdgeGPT is licensed under the [MIT License](https://chat.openai.com/LICENSE).
