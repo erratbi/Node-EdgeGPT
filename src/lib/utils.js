@@ -99,7 +99,7 @@ export function createChatRequest(conversation, mode = MODE_BALANCED) {
 /**
  * Read input from console
  * @param {Interface} rl
- * @returns {Promise<void>}
+ * @returns {Promise<string>}
  */
 export async function readInput(rl) {
   rl.setPrompt('You : ')
