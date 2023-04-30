@@ -1,4 +1,5 @@
 import { EventEmitter } from 'events'
+import { WebSocket } from 'ws'
 import { createChatRequest, DELIMITER, getHeaders, MODE_BALANCED } from './utils.js'
 
 export default class ChatHub extends EventEmitter {
