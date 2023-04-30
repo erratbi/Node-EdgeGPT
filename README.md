@@ -3,6 +3,20 @@ Node-EdgeGPT
 
 Node-EdgeGPT is a Node.js script that utilizes the Bing Chat API to create a Command Line Interface (CLI) for chatting with an AI-based chatbot. This CLI is based on the OpenAI GPT architecture and provides a simple interface for interacting with the AI chatbot.
 
+Legal Notice
+------------
+
+This repository uses third-party APIs and is *not* associated with or endorsed by the API providers. This project is intended for educational purposes only. This is just a little personal project. Sites may contact me to improve their security.
+
+Please note the following:
+
+1.  Disclaimer: The APIs, services, and trademarks mentioned in this repository belong to their respective owners. This project is *not* claiming any right over them.
+
+2.  Responsibility: The author of this repository is *not* responsible for any consequences arising from the use or misuse of this repository or the content provided by the third-party APIs and any damage or losses caused by users' actions.
+
+3.  Educational Purposes Only: This repository and its content are provided strictly for educational purposes. By using the information and code provided, users acknowledge that they are using the APIs and models at their own risk and agree to comply with any applicable laws and regulations.
+
+
 Prerequisites
 -------------
 
